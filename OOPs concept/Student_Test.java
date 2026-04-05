@@ -13,7 +13,7 @@ public class Student_Test {
             System.out.print("Enter roll number : ");
             String roll_no = sc.nextLine();
             System.out.print("Enter marks : ");
-            Double marks = sc.nextDouble();
+            double marks = sc.nextDouble();
             sc.nextLine();
             students[i] = new Student(name, roll_no, marks);
         }
