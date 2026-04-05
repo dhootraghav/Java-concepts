@@ -1,3 +1,5 @@
+// 1. Model a Student with encapsulation
+// Create a Student class with private fields: name, rollNo, marks. Add getters/setters with validation — marks must be between 0 and 100. Add a getGrade() method that returns A/B/C/F based on marks.
 package q1;
 import java.util.Scanner;
 

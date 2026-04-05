@@ -1,3 +1,6 @@
+// 2. Animal hierarchy with inheritance
+// Create an Animal base class with name, age, and a makeSound() method. Extend it with Dog, Cat, Cow. Each overrides makeSound(). In main, create an Animal[] array, store all three, and loop through calling makeSound() on each.
+
 package q2;
 public class Animal {
     private String name;
