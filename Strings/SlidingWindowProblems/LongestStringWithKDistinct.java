@@ -24,7 +24,7 @@ public class LongestStringWithKDistinct {
         String s = sc.nextLine();
         System.out.print("Enter the value of k : ");
         int k = sc.nextInt();
-        LongestStringWithoutRepitition ob = new LongestStringWithoutRepitition();
+        LongestStringWithKDistinct ob = new LongestStringWithKDistinct();
         System.out.println(ob.longest(s, k));
         sc.close();
     }
